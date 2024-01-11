@@ -1,0 +1,17 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card{
+    grid-column: span 1;
+    grid-row: span 1;
+    border-color: white;
+}
+.two{
+    grid-column: span 2;
+    grid-row: span 1;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
